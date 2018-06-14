@@ -139,17 +139,9 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		82817ED420D25255006D8223 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Source;
-			sourceTree = "<group>";
-		};
 		B805B8F1F54035E780405803 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				82817ED420D25255006D8223 /* Source */,
 				858339B42CD12CE9D177C8D7 /* Pods-YD_NetworkKit_Example.debug.xcconfig */,
 				9138D04CAAC5F465A31BC5F6 /* Pods-YD_NetworkKit_Example.release.xcconfig */,
 				CADA29BFA88BFA2B8D81D5CC /* Pods-YD_NetworkKit_Tests.debug.xcconfig */,

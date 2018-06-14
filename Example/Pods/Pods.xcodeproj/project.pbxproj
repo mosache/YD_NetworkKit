@@ -13,7 +13,7 @@
 		5D5237B63DB586F470F69D630D30273E /* YD_NetworkKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C67E6BA7E63977575F81B47EAFA04C43 /* YD_NetworkKit-dummy.m */; };
 		5DE3F6B5AC2212BBB5A58F87BF54499E /* Pods-YD_NetworkKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE9B438F32712A8E5206C2392752C9C /* Pods-YD_NetworkKit_Example-dummy.m */; };
 		63E2A261C177D4F53283A4673B4DC961 /* Pods-YD_NetworkKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B414C9B45873235D0F62DA8E3423AD4F /* Pods-YD_NetworkKit_Tests-dummy.m */; };
-		7E23481FBFB3205AB88D0AA2FC0C8AEF /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB0B0B0F8BE4D3016A5F627666BC1E7 /* ReplaceMe.swift */; };
+		82817ED720D25669006D8223 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82817ED620D25669006D8223 /* ReplaceMe.swift */; };
 		C237604E567DEB1FF2522572DB9648CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C6F98E7917067C09DE45117230743F3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F100A2D2D9DD4C8FC3D181872334C66A /* YD_NetworkKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4348CEE73C020D47ECD5DFBAEB0C27 /* YD_NetworkKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		060B954F8B7866C6FF45C36BAA61624E /* YD_NetworkKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YD_NetworkKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		060B954F8B7866C6FF45C36BAA61624E /* YD_NetworkKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YD_NetworkKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		100069527A994DD4A68E34E146AC31E6 /* Pods-YD_NetworkKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YD_NetworkKit_Example.modulemap"; sourceTree = "<group>"; };
 		14905BB44A81B88520445FC27509474D /* Pods-YD_NetworkKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YD_NetworkKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		14C08580AD8FB5ACDC460DB9EB494D05 /* Pods-YD_NetworkKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YD_NetworkKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,30 +46,30 @@
 		246F14AE59A9E66E675F87B50E10460F /* Pods-YD_NetworkKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YD_NetworkKit_Example-resources.sh"; sourceTree = "<group>"; };
 		284664BDC0D6A2808FACB3F71412A085 /* Pods-YD_NetworkKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YD_NetworkKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2EA4079D2B947DADC67EA48B91B827BE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3437AFDA0BD90F8ACDE1D40BA3D152EB /* Pods_YD_NetworkKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YD_NetworkKit_Example.framework; path = "Pods-YD_NetworkKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3437AFDA0BD90F8ACDE1D40BA3D152EB /* Pods_YD_NetworkKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YD_NetworkKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51FD1176B9874D8BF48E02883B4EFE65 /* YD_NetworkKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YD_NetworkKit.modulemap; sourceTree = "<group>"; };
 		607F79963D890CECE990F08D2AB4A3DE /* Pods-YD_NetworkKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YD_NetworkKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6CFB7B0FFF4598FF63A7337D50965097 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78B6ABEEA02DEF69D5F7666688F43891 /* Pods-YD_NetworkKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YD_NetworkKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7B0FAF25E88A0AB9D6B1A2F2D59BEE25 /* Pods-YD_NetworkKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YD_NetworkKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		82817ED620D25669006D8223 /* ReplaceMe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = YD_NetworkKit/Sources/ReplaceMe.swift; sourceTree = "<group>"; };
 		82D5745858C46BAB94978E6B797AAF59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9D6055F5BEE5E050C474FB8F94DDA32A /* Pods-YD_NetworkKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YD_NetworkKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		ACA0240BA14B2D601DF1FE70F709562F /* YD_NetworkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YD_NetworkKit.framework; path = YD_NetworkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADB0B0B0F8BE4D3016A5F627666BC1E7 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = YD_NetworkKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		ACA0240BA14B2D601DF1FE70F709562F /* YD_NetworkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YD_NetworkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4348CEE73C020D47ECD5DFBAEB0C27 /* YD_NetworkKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YD_NetworkKit-umbrella.h"; sourceTree = "<group>"; };
 		B414C9B45873235D0F62DA8E3423AD4F /* Pods-YD_NetworkKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YD_NetworkKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		B688213F9BAB941512F6CC96AECAE61C /* Pods-YD_NetworkKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YD_NetworkKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C67E6BA7E63977575F81B47EAFA04C43 /* YD_NetworkKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YD_NetworkKit-dummy.m"; sourceTree = "<group>"; };
 		CCBCA5619D1AAA3E6CC5092B9E45B451 /* YD_NetworkKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YD_NetworkKit.xcconfig; sourceTree = "<group>"; };
-		CDB2ECE42EDF6AC2D2D0AD5BF323ECFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CDB2ECE42EDF6AC2D2D0AD5BF323ECFB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CDE9B438F32712A8E5206C2392752C9C /* Pods-YD_NetworkKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YD_NetworkKit_Example-dummy.m"; sourceTree = "<group>"; };
 		D4A9AC1B2B4C035611CA2527FB08797C /* YD_NetworkKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YD_NetworkKit-prefix.pch"; sourceTree = "<group>"; };
-		D83F461CCB199AF9D4E61224DC3585B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D83F461CCB199AF9D4E61224DC3585B2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DF505CE9A99FA9D7A014187443B5CEDC /* Pods-YD_NetworkKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YD_NetworkKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFEB3CDF6CF334DD5A3905C320B01AF7 /* Pods-YD_NetworkKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YD_NetworkKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		E09163E6D9F38E921FF65DC657A2DE6F /* Pods_YD_NetworkKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YD_NetworkKit_Tests.framework; path = "Pods-YD_NetworkKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09163E6D9F38E921FF65DC657A2DE6F /* Pods_YD_NetworkKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YD_NetworkKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40FED057502B36CFBC94B26721B1318 /* Pods-YD_NetworkKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YD_NetworkKit_Tests.modulemap"; sourceTree = "<group>"; };
 		EBE0ADE6D21E9B11F8EF52FEBF093BD8 /* Pods-YD_NetworkKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YD_NetworkKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -119,7 +119,7 @@
 		279A8AD1D600EEFF3205F0000EF7E42F /* YD_NetworkKit */ = {
 			isa = PBXGroup;
 			children = (
-				ADB0B0B0F8BE4D3016A5F627666BC1E7 /* ReplaceMe.swift */,
+				82817ED620D25669006D8223 /* ReplaceMe.swift */,
 				8B51CAAD363AC8CCC1DD9A776DFDDFCE /* Pod */,
 				22C321D4D61DC402492E0AD62480B4B9 /* Support Files */,
 			);
@@ -318,6 +318,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					DF0FA9029E86109DBF540FCA6ECD4AD0 = {
+						LastSwiftMigration = 0930;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -351,6 +356,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82817ED720D25669006D8223 /* ReplaceMe.swift in Sources */,
 				5DE3F6B5AC2212BBB5A58F87BF54499E /* Pods-YD_NetworkKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +365,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E23481FBFB3205AB88D0AA2FC0C8AEF /* ReplaceMe.swift in Sources */,
 				5D5237B63DB586F470F69D630D30273E /* YD_NetworkKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,6 +392,7 @@
 			baseConfigurationReference = 78B6ABEEA02DEF69D5F7666688F43891 /* Pods-YD_NetworkKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -411,6 +417,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -518,6 +525,7 @@
 			baseConfigurationReference = 14C08580AD8FB5ACDC460DB9EB494D05 /* Pods-YD_NetworkKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -541,6 +549,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

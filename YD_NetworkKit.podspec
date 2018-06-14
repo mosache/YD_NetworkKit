@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YD_NetworkKit/Source/**/*'
+  s.source_files = 'YD_NetworkKit/Sources/**/*'
   
   # s.resource_bundles = {
   #   'YD_NetworkKit' => ['YD_NetworkKit/Assets/*.png']
