@@ -1,0 +1,16 @@
+PODS:
+  - YD_NetworkKit (0.1.0)
+
+DEPENDENCIES:
+  - YD_NetworkKit (from `../`)
+
+EXTERNAL SOURCES:
+  YD_NetworkKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YD_NetworkKit: 17c326fe87b9de56a127219e06191e3205af652c
+
+PODFILE CHECKSUM: b4ad8c4ba351e718434c92344c4996d1153de702
+
+COCOAPODS: 1.5.0

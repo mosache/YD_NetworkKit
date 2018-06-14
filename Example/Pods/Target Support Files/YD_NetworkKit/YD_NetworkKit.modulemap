@@ -1,0 +1,6 @@
+framework module YD_NetworkKit {
+  umbrella header "YD_NetworkKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
