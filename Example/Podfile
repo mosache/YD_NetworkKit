@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YD_NetworkKit_Example' do
+  pod 'YD_NetworkKit', :path => '../'
+
+  target 'YD_NetworkKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
