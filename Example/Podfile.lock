@@ -1,15 +1,32 @@
 PODS:
-  - YD_NetworkKit (0.1.0)
+  - Alamofire (4.7.2)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Result (3.2.4)
+  - YD_NetworkKit (0.1.0):
+    - Moya
 
 DEPENDENCIES:
   - YD_NetworkKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Moya
+    - Result
 
 EXTERNAL SOURCES:
   YD_NetworkKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YD_NetworkKit: 17c326fe87b9de56a127219e06191e3205af652c
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  YD_NetworkKit: e2b79236f8c13f7b427ecc6265a6d6930f397655
 
 PODFILE CHECKSUM: b4ad8c4ba351e718434c92344c4996d1153de702
 

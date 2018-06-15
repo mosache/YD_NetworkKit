@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let target = YD_ServiceApi(request:YDRequest<ServiceApi>(para: ["username":"901013710","password":"123456"], path: .login))
+        HttpUtils<YD_ServiceApi>().successHandler { (result) in
+            for (key, value) in result as! Dictionary<String,Any> {
+                print("\(key) - \(value)")
+            }
+            }.request(target: target)
     }
 
     override func didReceiveMemoryWarning() {

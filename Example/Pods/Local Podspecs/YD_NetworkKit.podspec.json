@@ -1,7 +1,7 @@
 {
   "name": "YD_NetworkKit",
   "version": "0.1.0",
-  "summary": "A short description of YD_NetworkKit.",
+  "summary": "YD_NetworkKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/330256579@qq.com/YD_NetworkKit",
   "license": {
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YD_NetworkKit/Classes/**/*"
+  "source_files": "YD_NetworkKit/Sources/**/*",
+  "dependencies": {
+    "Moya": [
+
+    ]
+  }
 }
