@@ -30,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		2A3D73AF5247DFA23FC54B99 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		32AE5EE391373BED9659A484 /* YD_NetworkKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YD_NetworkKit.podspec; path = ../YD_NetworkKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		32AE5EE391373BED9659A484 /* YD-NetworkKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "YD-NetworkKit.podspec"; path = "../YD-NetworkKit.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4DDF7926B20417B3E454B88C /* Pods-YD_NetworkKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YD_NetworkKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YD_NetworkKit_Tests/Pods-YD_NetworkKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* YD_NetworkKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YD_NetworkKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				32AE5EE391373BED9659A484 /* YD_NetworkKit.podspec */,
+				32AE5EE391373BED9659A484 /* YD-NetworkKit.podspec */,
 				EDD74791A26FF8C120FD3F47 /* README.md */,
 				2A3D73AF5247DFA23FC54B99 /* LICENSE */,
 			);
