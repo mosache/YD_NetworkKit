@@ -8,12 +8,17 @@
 
 import UIKit
 import YD_NetworkKit
-enum ServiceApi: String,Requestable {
+import Moya
+enum ServiceApi : String {
     case login = "/Api/Duty/Login"
 }
 
-extension ServiceApi {
+extension ServiceApi : Requestable {
     func getValue() -> String {
         return self.rawValue
+    }
+    
+    func getBaseURL() -> String {
+        return "http://beta.duty.mgsafe.cn"
     }
 }

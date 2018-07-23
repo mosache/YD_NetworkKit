@@ -22,24 +22,19 @@ public struct YDRequest<T:Requestable>{
     var para : Dictionary<String,String>
     var path : String
     var method : HTTPMethod
+    var baseURL : String
     
     public init(para:Dictionary<String,String> , path : T ,  method : HTTPMethod = .get){
         self.para = para
         self.path = path.getValue()
         self.method = method
+        self.baseURL = path.getBaseURL()
     }
-}
-
-public extension YD_ServiceApi{
-    public enum ServiceApi {
-        case login(username:String,password:String)
-    }
-    
 }
 
  extension YD_ServiceApi : TargetType {
     public var baseURL: URL {
-        return URL(string: "http://beta.duty.mgsafe.cn")!
+        return URL(string: self.request.baseURL)!
     }
     
     public var path: String {
@@ -65,7 +60,10 @@ public extension YD_ServiceApi{
 
 public protocol Requestable {
      func getValue() -> String
+    
+    func getBaseURL() -> String
 }
+
 
 
 

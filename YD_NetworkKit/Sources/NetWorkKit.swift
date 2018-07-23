@@ -11,6 +11,7 @@ import Result
 public enum HttpResponseType {
     case string
     case json
+    case model
 }
 
 public class HttpUtils<T:TargetType> {
@@ -21,10 +22,7 @@ public class HttpUtils<T:TargetType> {
     
     var succsessHandler : SuccessHandler?
     var failureHandler : FailureHandler?
-    
     public init(){}
-    
-
 }
 
 // 属性设置
@@ -48,6 +46,49 @@ public class HttpUtils<T:TargetType> {
 
 // 请求
 extension HttpUtils {
+    public func requestModel<U : Codable>(target: T , modelType : U.Type) -> Void{
+        let provider = MoyaProvider<T>()
+        provider.request(target) { result in
+            switch result {
+            case .success(let value):
+                if (self.succsessHandler != nil) {
+                    if (self.respType == .json) {
+                        do {
+                            let jsonObj = try JSONSerialization.jsonObject(with: value.data, options: JSONSerialization.ReadingOptions.allowFragments)
+//                            JSONDecoder().decode(User.self, from: value.data)
+                            self.succsessHandler! (jsonObj)
+                        }catch {
+                            if (self.failureHandler != nil) {
+                                self.failureHandler! (error as NSError)
+                            }
+                        }
+                    }else if (self.respType == .string) {
+                        let respStr = String.init(data: value.data, encoding: String.Encoding.utf8)
+                        self.succsessHandler! (respStr!)
+                    }else if (self.respType == .model){
+                        let jsonObj = try? JSONSerialization.jsonObject(with: value.data, options: JSONSerialization.ReadingOptions.allowFragments)
+                        guard jsonObj != nil else {
+                            print("json parse is error")
+                            return
+                        }
+                         print(type(of: jsonObj!))
+                        let data = try? JSONSerialization.data(withJSONObject: (((jsonObj as! NSDictionary)["data"]!) as! NSDictionary), options:JSONSerialization.WritingOptions.prettyPrinted)
+                        
+                        
+                        let respModel = try? JSONDecoder().decode(modelType, from: data!)
+                        self.succsessHandler! (respModel!)
+                    }
+                }
+                break
+            case .failure(let error):
+                if (self.failureHandler != nil) {
+                    self.failureHandler! (error as NSError)
+                }
+                break
+            }
+        }
+    }
+    
     public func request(target: T) -> Void{
         let provider = MoyaProvider<T>()
         provider.request(target) { result in

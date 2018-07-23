@@ -11,9 +11,9 @@
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8271EE7D20D38CE90087602C /* ServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8271EE7C20D38CE90087602C /* ServiceApi.swift */; };
+		8281E67C21008B240024C172 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281E67B21008B240024C172 /* User.swift */; };
 		A3E629A3727EC8B151749326 /* Pods_YD_NetworkKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5184066AFB374AE2499EB1 /* Pods_YD_NetworkKit_Tests.framework */; };
 		B8ADE3C6CD6E6F872DFE602F /* Pods_YD_NetworkKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BE52A4B4BD87F0876E49486 /* Pods_YD_NetworkKit_Example.framework */; };
 /* End PBXBuildFile section */
@@ -38,11 +38,11 @@
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* YD_NetworkKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YD_NetworkKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8271EE7C20D38CE90087602C /* ServiceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceApi.swift; sourceTree = "<group>"; };
+		8281E67B21008B240024C172 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		858339B42CD12CE9D177C8D7 /* Pods-YD_NetworkKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YD_NetworkKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YD_NetworkKit_Example/Pods-YD_NetworkKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8BE52A4B4BD87F0876E49486 /* Pods_YD_NetworkKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YD_NetworkKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9138D04CAAC5F465A31BC5F6 /* Pods-YD_NetworkKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YD_NetworkKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YD_NetworkKit_Example/Pods-YD_NetworkKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,12 +95,12 @@
 		607FACD21AFB9204008FA782 /* Example for YD_NetworkKit */ = {
 			isa = PBXGroup;
 			children = (
+				8281E67B21008B240024C172 /* User.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				8271EE7C20D38CE90087602C /* ServiceApi.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for YD_NetworkKit";
@@ -249,7 +249,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8281E67C21008B240024C172 /* User.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				8271EE7D20D38CE90087602C /* ServiceApi.swift in Sources */,
@@ -362,14 +362,6 @@
 				607FACDA1AFB9204008FA782 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

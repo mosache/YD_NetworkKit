@@ -14,10 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let target = YD_ServiceApi(request:YDRequest<ServiceApi>(para: ["username":"901013710","password":"123456"], path: .login))
         HttpUtils<YD_ServiceApi>().successHandler { (result) in
-            for (key, value) in result as! Dictionary<String,Any> {
-                print("\(key) - \(value)")
-            }
-            }.request(target: target)
+            print(result)
+            }.responType(.model).requestModel(target: target,modelType:User.self)
     }
 
     override func didReceiveMemoryWarning() {
